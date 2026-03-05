@@ -216,15 +216,24 @@ export default function Home() {
             {/* Stats bar */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {[
-                { label: "Section A", sub: "Keyword ECO", count: sectionA.length, color: "text-emerald-700 bg-emerald-50 border-emerald-200" },
-                { label: "Section B", sub: "LLM ECO", count: sectionB.length, color: "text-teal-700 bg-teal-50 border-teal-200" },
-                { label: "Manual Check", sub: "Insan gozu gerekli", count: sectionCManual.length, color: "text-amber-700 bg-amber-50 border-amber-200" },
-                { label: "Rejected", sub: "Eco degil", count: sectionCRejected.length, color: "text-red-700 bg-red-50 border-red-200" },
+                { label: "Section A", sub: "Keyword ECO", count: sectionA.length, color: "text-emerald-700 bg-emerald-50 border-emerald-200", tooltip: "Keyword motoru ≥5 puan eşiğini geçti. LLM'e gerek kalmadan doğrudan eco-friendly olarak etiketlendi." },
+                { label: "Section B", sub: "LLM ECO", count: sectionB.length, color: "text-teal-700 bg-teal-50 border-teal-200", tooltip: "Keyword eşiğini geçemedi, ancak LLM motoru ürün açıklamasında eco sinyali tespit etti. Örtük ifadeler bu kategoriye düşer." },
+                { label: "Manual Check", sub: "Insan gozu gerekli", count: sectionCManual.length, color: "text-amber-700 bg-amber-50 border-amber-200", tooltip: "LLM motoru 'uncertain' döndürdü — sinyal var ama yeterince güçlü değil. İnsan kararı gerekiyor." },
+                { label: "Rejected", sub: "Eco degil", count: sectionCRejected.length, color: "text-red-700 bg-red-50 border-red-200", tooltip: "Hem keyword hem LLM motorundan eco etiketi alamadı. Katalogda eco bağlantılı sinyal bulunamadı." },
               ].map((s) => (
-                <div key={s.label} className={`rounded-xl border px-4 py-3 ${s.color}`}>
-                  <p className="text-xs font-semibold uppercase tracking-wide opacity-70">{s.label}</p>
+                <div key={s.label} className={`relative group rounded-xl border px-4 py-3 ${s.color}`}>
+                  <div className="flex items-center gap-1">
+                    <p className="text-xs font-semibold uppercase tracking-wide opacity-70">{s.label}</p>
+                    <span className="opacity-40 text-xs cursor-default select-none">ℹ</span>
+                  </div>
                   <p className="text-2xl font-bold">{s.count}</p>
                   <p className="text-xs opacity-70">{s.sub}</p>
+                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-56 z-10 hidden group-hover:block pointer-events-none">
+                    <div className="bg-gray-900 text-white text-xs rounded-lg px-3 py-2 leading-relaxed shadow-lg">
+                      {s.tooltip}
+                      <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900" />
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>
