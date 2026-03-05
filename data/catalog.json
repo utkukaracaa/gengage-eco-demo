@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "name": "Fjord FSC Meşe Yemek Masası",
+    "price": 18900,
+    "description": "Fjord Yemek Masası, İskandinav tasarım felsefesinin sade çizgilerini Türk zanaatkârlığının titiz işçiliğiyle harmanlayan, masif meşe ahşabından üretilmiş bir sofra buluşma noktasıdır. Her bir parça, orman yönetim standartlarına uygunluğu uluslararası alanda tanınan FSC sertifikalı meşe tomruklarından el ile seçilerek üretilmektedir. FSC sertifikası, kullanılan her ağacın yerine en az birinin dikilmesini ve bölgesel ekosisteme verilen zararın sıfırlanmasını güvence altına almaktadır. Masa yüzeyi, dört kademeli el zımparalama sürecinden geçirilmekte; ardından VOC emisyonu minimum düzeyde tutulmuş, tamamen su bazlı boya ve vernik uygulamasıyla bitirilmektedir. Su bazlı boya tercihimiz yalnızca bir çevre hassasiyeti değil, aynı zamanda iç mekân hava kalitesini koruyan bilinçli bir üretim kararıdır. Petrokimyasal çözücüler içermeyen bu kaplama, kuruma sürecinde atmosfere herhangi bir zararlı bileşik salmamaktadır. Masanın bacakları, gövdeyle aynı meşe kaynağından alınan masif parçalardan tornada şekillendirilmekte; metal bağlantı elemanı olarak yalnızca paslanmaz çelik kullanılmaktadır. Oturma kapasitesi altı kişilik olacak biçimde tasarlanmış olan masa, 200 x 95 cm ölçüleriyle geniş aile yemeklerine ve misafir ağırlamalarına rahatlıkla yanıt vermektedir. Yüzey dokusu, meşenin doğal damar yapısını ön plana çıkaracak şekilde işlenmekte; her masanın görünümü, kullanılan tomruğun özgün karakterine göre hafif farklılık göstermektedir. Bu, seri üretimin önüne geçilmesinin ve her parçaya biricik kimlik kazandırılmasının bilinçli bir tercih olduğu anlamına gelmektedir. Ürün ambalajlamasında yüzde yüz geri dönüştürülmüş ambalaj malzemeleri kullanılmaktadır; köşe koruyucular mantar bazlı dolgulardan üretilmiş olup tamamen biyobozunurdur. Strafor ve tek kullanımlık plastik ambalaj malzemelerine başvurulmamaktadır. Vivense lojistik sürecinde masa, hasarı önleyecek biçimde FSC karton ve geri dönüştürülmüş tekstil pedleriyle sarılarak sevk edilmektedir. Ürün garantisi beş yıldır; onarım ve yedek parça desteği ömür boyu sunulmaktadır. Doğadan ilham alan tasarım anlayışımız gereği Fjord masası, yıllar içinde yüzeyinde oluşacak küçük çizikler ve renk derinleşmesiyle birlikte daha zengin bir karakter kazanmaktadır; bu durum bir kusur değil, meşenin yaşayan doğasının bir yansımasıdır. Montaj için herhangi bir yapıştırıcı veya kimyasal madde kullanılmamakta, tüm birleştirme işlemleri geleneksel zıvana-yuva tekniğiyle gerçekleştirilmektedir. Renk seçenekleri: doğal meşe, füme meşe, beyazlatılmış meşe. Bacak yüksekliği isteğe bağlı 72 cm veya 75 cm olarak sipariş edilebilmektedir. Üretim atölyemiz, sıfır sıvı atık ilkesiyle çalışmakta; talaş ve kesim atıkları bölgedeki biyokütle enerji tesislerine aktarılmaktadır. Fjord, bir mobilya parçasının ötesinde, sürdürülebilir bir yaşam mekânının temel taşlarından biri olmayı hedeflemektedir.",
+    "llm_analysis": {
+      "label": "eco",
+      "confidence": 0.93,
+      "signals_found": [
+        { "text": "FSC sertifikalı meşe tomruklarından el ile seçilerek üretilmektedir", "strength": "strong" },
+        { "text": "tamamen su bazlı boya ve vernik uygulamasıyla bitirilmektedir", "strength": "strong" },
+        { "text": "yüzde yüz geri dönüştürülmüş ambalaj malzemeleri kullanılmaktadır", "strength": "medium" },
+        { "text": "FSC karton ve geri dönüştürülmüş tekstil pedleriyle sarılarak sevk edilmektedir", "strength": "medium" }
+      ],
+      "signals_missing": [
+        { "text": "doğadan ilham alan tasarım anlayışımız", "reason": "Tasarım dili — eco kanıtı değil, estetik ifade" },
+        { "text": "sürdürülebilir bir yaşam mekânının temel taşı", "reason": "Yaşam tarzı iddiası — ürün özelliği değil" }
+      ],
+      "reasoning": "FSC sertifikası açıkça belirtilmiş ve bağlamıyla açıklanmış güçlü bir kanıttır. Su bazlı boya ve geri dönüştürülmüş ambalaj ek destekleyici sinyaller niteliğindedir. Tedarik zinciri izlenebilirliği yüksektir."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bambuka OEKO-TEX Kanepe",
+    "price": 24500,
+    "description": "Bambuka Kanepe, modern oturma odalarının hem estetik hem de çevresel beklentilerine karşılık verecek biçimde tasarlanmış, bambu iskelet ve OEKO-TEX sertifikalı döşeme kumaşıyla öne çıkan bir oturma ünitesidir. Kanepenin taşıyıcı çerçevesi, hızlı büyüme hızı ve doğal yenilenebilirliği ile bilinen bambudan üretilmiştir. Bambu, aynı alandan geleneksel sert ahşaba kıyasla yaklaşık dört kat daha fazla biyokütle üretmekte ve hasat sonrasında kökten yeniden filizlenebilmektedir; bu özelliği onu orman kaynakları üzerindeki baskıyı belirgin biçimde azaltan bir malzeme seçeneği hâline getirmektedir. Döşeme kumaşı, OEKO-TEX Standard 100 sertifikasına sahiptir. Bu sertifika, kumaşın üretim aşamasında kullanılan boyarmaddelerin, ağartıcıların ve apre kimyasallarının belirlenmiş zararlı madde sınır değerlerinin altında kaldığını bağımsız laboratuvar testleriyle kanıtlamaktadır. OEKO-TEX, Avrupa'nın en güvenilir tekstil çevre standartlarından biri olup her yıl yenilenen denetimlerle geçerliliğini korumaktadır. İç dolgu, yüksek yoğunluklu bambu elyaf ve doğal lateks karışımından oluşmaktadır; bu bileşim, sentetik köpüklere kıyasla çok daha düşük kimyasal içerik yüküyle uzun süreli konfor sağlamaktadır. Kanepe ayakları masif kayın ağacından tornada üretilmiş olup doğal balmumu ile bitirilmiştir; herhangi bir sentetik vernik kullanılmamıştır. Renk paletimiz, azo boyası içermeyen ve düşük VOC emisyonlu doğal boyalarla elde edilmiştir. Ürün ambalajında biyobozunur karton, geri dönüştürülmüş kâğıt dolgular ve sertifikalı mantar köşe koruyucular kullanılmaktadır; plastik strech film veya strafor yer almamaktadır. Kanepe, modüler tasarımıyla sökülebilir döşeme özelliğine sahiptir; zamanla yıpranan kumaş, mobilyanın tamamı değiştirilerek bütünüyle atığa dönüşmeksizin yalnızca döşeme yenilenebilmektedir. Bu yaklaşım, ürünün kullanım ömrü boyunca çevresel ayak izini önemli ölçüde azaltmaktadır. Üretim tesisimiz güneş enerjisiyle çalışmakta ve su tüketimi kapalı döngü sistemiyle kontrol altında tutulmaktadır. Kanepe üç koltuk ve bir tekli olmak üzere iki boyutta mevcuttur. Kumaş rengi ve doku seçimi sipariş sırasında kişiselleştirilebilmektedir. Premium kalite anlayışımız, yalnızca görünüm ve konforla değil, seçtiğimiz malzemelerin çevresel geçmişiyle de doğrudan ilişkilidir; bu nedenle tedarikçi seçiminde sertifikasyon ve şeffaflık birincil kriterimizdir. Garanti süresi üç yıldır; döşeme yenileme hizmeti beşinci yılın sonuna kadar ücretsiz olarak sunulmaktadır. Bambuka, evinize getirdiğiniz ilk gün kadar on yıl sonra da estetik değerini ve yapısal bütünlüğünü koruyan bir tasarım yatırımıdır.",
+    "llm_analysis": {
+      "label": "eco",
+      "confidence": 0.87,
+      "signals_found": [
+        { "text": "OEKO-TEX Standard 100 sertifikasına sahiptir", "strength": "strong" },
+        { "text": "taşıyıcı çerçevesi bambudan üretilmiştir", "strength": "strong" },
+        { "text": "biyobozunur karton, geri dönüştürülmüş kâğıt dolgular", "strength": "medium" },
+        { "text": "doğal lateks karışımından oluşmaktadır", "strength": "medium" }
+      ],
+      "signals_missing": [
+        { "text": "premium kalite anlayışımız", "reason": "Pazarlama ifadesi — eco kanıtı değil" }
+      ],
+      "reasoning": "OEKO-TEX Standard 100 sertifikası ve bambu iskeleti güçlü, belgelenmiş eco sinyalleridir. Biyobozunur ambalaj ve doğal lateks dolgu ek destekleyici kanıt sağlamaktadır."
+    }
+  },
+  {
+    "id": 3,
+    "name": "Reclaimed Endüstriyel Tekli Koltuk",
+    "price": 9750,
+    "description": "Reclaimed Endüstriyel Tekli Koltuk, geride bırakılan sanayi mekânlarından ve yıkılan fabrika yapılarından kurtarılan reclaimed çelik profillerin ve ahşap parçaların ikinci bir üretim döngüsüne kazandırılmasıyla ortaya çıkan bir tasarım nesnesidir. İskeletin tamamı, hurda çelik piyasasına düşmekten kurtarılmış reclaimed çelik borudan üretilmektedir; bu çeliğin yeniden eritilmesi yerine doğrudan kullanımı, üretim sürecindeki karbon yükünü birincil çelik üretimiyle kıyaslandığında büyük ölçüde azaltmaktadır. Her koltuğun oturma ve sırt bölümünde kullanılan ahşap paneller, atölye ekibimiz tarafından bölgedeki eski yapılardan toplanmış salvaged çınar ve meşe parçalarından kesilmektedir. Bu parçalar üzerindeki doğal aşınma izleri, çatlaklar ve renk farklılıkları, zımparalanarak giderilmek yerine korunmakta; her koltuğun görünümünü biricik kılan karakteristik unsurlar olarak değerlendirilmektedir. Döşeme kumaşı, el yapımı dokuma yöntemiyle üretilmiş ve geri dönüştürülmüş PET şişelerden elde edilen polyester elyafla güçlendirilmiştir. Kumaşın dokuma işlemi İzmir'deki aile atölyelerinde gerçekleştirilmekte; bu tercih hem yerel ekonomiye destek vermekte hem de uzun mesafeli lojistikten kaynaklanan emisyon yükünü azaltmaktadır. Metal yüzeyler, sürdürülebilir üretim süreciyle elde edilmiş oksit boyasıyla kaplanmakta; solvent içermeyen formülasyonu sayesinde uygulama sırasında herhangi bir organik buhar açığa çıkmamaktadır. Koltuk, vida ve somun bağlantı sistemiyle monte edilmiş olup hiçbir kalıcı yapıştırıcı kullanılmamaktadır; bu yaklaşım, parçaların ileride ayrıştırılarak farklı amaçlarla yeniden kullanılabilmesine zemin hazırlamaktadır. Oturma yüksekliği 44 cm, toplam yükseklik 82 cm, genişlik 68 cm'dir. BPA-free boya pigmentleri kullandığımızı belirtmek isteriz; ancak bu özelliğin temel değeri estetik güvenliğe ilişkindir ve çevresel sürdürülebilirlik iddiamızın kaynağını oluşturmamaktadır. Koltuğun taşıma kapasitesi 130 kg olarak belirlenmiştir. Ambalajlama, yeniden kullanılabilir tekstil örtüler ve karton desteklerle yapılmaktadır; plastik bant kullanılmamaktadır. Ürün renkleri: ham demir siyahı, antrasit, pas kırmızısı. Garanti iki yıldır. Reclaimed Endüstriyel Tekli Koltuk, geçmişin izlerini taşıyan malzemelere gelecekte de işlev ve anlam kazandırmak isteyenler için tasarlanmıştır.",
+    "llm_analysis": {
+      "label": "eco",
+      "confidence": 0.82,
+      "signals_found": [
+        { "text": "reclaimed çelik borudan üretilmektedir", "strength": "strong" },
+        { "text": "salvaged çınar ve meşe parçalarından kesilmektedir", "strength": "strong" },
+        { "text": "el yapımı dokuma yöntemiyle üretilmiş", "strength": "medium" },
+        { "text": "solvent içermeyen formülasyonu", "strength": "medium" }
+      ],
+      "signals_missing": [
+        { "text": "BPA-free boya pigmentleri", "reason": "Güvenlik standardı — çevre performansı kanıtı değil" }
+      ],
+      "reasoning": "Reclaimed çelik ve salvaged ahşap kullanımı güçlü ve açıkça belgelenmiş eco sinyalleridir. Solvent-free boya ek destekleyici kanıt niteliğindedir. BPA-free ifadesi misleading olarak işaretlenmiştir."
+    }
+  },
+  {
+    "id": 4,
+    "name": "Kuzey Atölyesi Ahşap Kitaplık",
+    "price": 7200,
+    "description": "Kuzey Atölyesi Kitaplığı, görünürde sıradan bir raf sistemi gibi dursa da üretim felsefesi ve malzeme seçimi bakımından sektördeki alışılageldik pratiklerden belirgin biçimde ayrışmaktadır. İskandinavya'da faaliyet gösteren tedarikçi ortaklarımızdan gelen meşe ve kayın keresteleri, devlet orman idareleri tarafından yürütülen belgelenmiş orman yönetim programları çerçevesinde hasat edilmektedir; bu programlar yıllık kesim miktarını doğal yenilenme hızının altında tutmayı yasal zorunluluk olarak tanımlamaktadır. Keresteyi kesen ve biçen atölye ekibimiz, tomruk seçimini envanter raporlarına değil, her ağacın yaş halkası ve lif yapısı analizine dayandırmaktadır; bu yöntem hem malzeme israfını hem de yapısal zayıf parçaların son ürüne karışmasını önlemektedir. Kitaplığın tüm bağlantı noktaları geleneksel zıvana-yuva ve çifte kelebek sistemiyle güçlendirilmiştir; yapıştırıcı olarak yalnızca su bazlı, formaldehit içermeyen bir bağlayıcı kullanılmaktadır. Yüzey bitirme aşamasında herhangi bir kimyasal çözücü kullanılmamaktadır; tüm yüzeyler önce mekanik zımparalama ardından saf doğal balmumu ve sertleştirilmiş keten yağı karışımı uygulamasıyla korunmaktadır. Bu iki maddeli bitirme karışımı, ahşabın gözenek yapısına nüfuz ederek yüzeyden buharlaşabilecek herhangi bir uçucu organik bileşik açığa çıkarmaksızın kalıcı bir koruma sağlamaktadır. Kitaplık raflarına meşe ve kayın malzeme seçenekleri sunulmaktadır; her iki malzeme de sert lif yapısıyla uzun yıllar şekil değiştirmeden kalabilmektedir. Kitaplık boyutları: 180 x 90 x 35 cm (yükseklik x genişlik x derinlik), beş ayarlanabilir raf seviyesine sahip. Montaj için gereken tüm parçalar kitaplıkla birlikte teslim edilmekte; metal bağlantı elemanları paslanmaz çelikten üretilmektedir. Atölyemizde talaş ve kesim atıkları hiçbir zaman düzenli çöp alanına gönderilmemektedir; büyük parçalar küçük aksesuar üretiminde değerlendirilmekte, işlenemeyecek kadar küçük toz ve kırıntılar ise yerel ısıtma kooperatiflerine briker ham maddesi olarak aktarılmaktadır. Üretim sürecinde kullanılan boya kova ve fırça temizliği tamamen su ile gerçekleştirilmektedir; kimyasal temizleyici atık oluşmamaktadır. Bu kitaplık, ürünün içindeki malzemelerin hikâyesini merak eden ve satın aldığı nesnenin doğa üzerindeki izini anlamak isteyen kullanıcılar için tasarlanmıştır. Beş yıl garanti, ömür boyu onarım desteği sunulmaktadır.",
+    "llm_analysis": {
+      "label": "eco",
+      "confidence": 0.76,
+      "signals_found": [
+        { "text": "belgelenmiş orman yönetim programları çerçevesinde hasat edilmektedir", "strength": "medium" },
+        { "text": "kimyasal çözücü kullanılmamaktadır; saf doğal balmumu ve sertleştirilmiş keten yağı", "strength": "medium" },
+        { "text": "su bazlı, formaldehit içermeyen bir bağlayıcı kullanılmaktadır", "strength": "medium" }
+      ],
+      "signals_missing": [
+        { "text": "belgelenmiş orman yönetim programları", "reason": "FSC veya PEFC sertifika adı açıkça yazılmamış; kaynak izlenebilirliği var ancak sertifika adı eksik. Confidence 0.80 eşiğini geçemiyor." }
+      ],
+      "reasoning": "Formaldehit içermeyen bağlayıcı ve kimyasal çözücüsüz bitirme orta güçte eco sinyalleridir. Orman yönetim programına atıf var ancak FSC/PEFC sertifika adı geçmediğinden tedarik zinciri boşluğu mevcut; confidence 0.50 eşiğini aşmaktadır çünkü süreç detayları spesifik ve tutarlıdır."
+    }
+  },
+  {
+    "id": 5,
+    "name": "Anadolu El Dokuması Berjer",
+    "price": 12400,
+    "description": "Anadolu El Dokuması Berjer, Orta Anadolu'nun yüzyıllık tekstil geleneğini çağdaş mobilya tasarımıyla buluşturan, tamamen el yapımı bir koltuk modelidir. Koltuk yüzeyi, Afyonkarahisar'ın geleneksel tezgâh ustalarından sipariş edilen kumaşlarla kaplanmaktadır; bu kumaşlar, kimyasal apre işlemi uygulanmadan yalnızca doğal gerilme ve hava alma yöntemiyle tutturulmuş pamuk ipliğiyle dokunmaktadır. El yapımı üretim süreci, kumaşın yüzey başına düşen enerji tüketimini endüstriyel dokuma tezgâhlarına kıyasla önemli ölçüde düşürmektedir; insan emeğinin merkezde olduğu bu yaklaşım aynı zamanda bölgesel zanaatkârlığın yaşatılmasına katkı sağlamaktadır. İskelet, iç Anadolu'daki atölye ortaklarımızda masif kayın ve meşe parçaların birleştirilmesiyle oluşturulmaktadır. Doğadan ilham alan organik formu sayesinde berjer, mekânın içinde adeta büyümüş gibi durmakta; köşeli, katı geometrilerden uzak yumuşak çizgileri oturma konforunu da desteklemektedir. Koltuk ambalajı minimal tutulmuş olup geri dönüştürülmüş kartondan üretilmiş koruyucu bir dış kutu ve hasarsız teslimatı güvence altına alan pamuklu tekstil iç örtüden oluşmaktadır. İskelet birleştirmelerinde kullanılan tutkal, su bazlı formülasyonludur ve çevreye salınan uçucu organik bileşik miktarı üretici firma tarafından ölçülerek raporlanmaktadır. Berjer, geleneksel el sanatlarına yapılan yatırımın hem sosyal hem de çevresel getirisine inanan tüketiciler için özel olarak konumlandırılmıştır. Organik formlar ve doğadan ilham alan çizgiler, tasarımcımızın Batı Anadolu kıyı coğrafyasından derlediği biçim gözlemlerinden beslenmektedir; bu estetik seçimler ürünün eco kimliğiyle örtüşse de eco iddiamızın temeli tasarım dili değil, malzeme ve üretim sürecidir. Koltuk ağırlığı 24 kg, oturma yüksekliği 43 cm, toplam yükseklik 98 cm, genişlik 85 cm. Renk seçenekleri: fil dişi, terrakota, koyu zeytin. Kumaş türü özelleştirme siparişinde mevcut stoktan farklı renk ve desen seçimi yapılabilmektedir. Ürün garantisi iki yıldır; kumaş değişim hizmeti ekstra ücret karşılığında sunulmaktadır.",
+    "llm_analysis": {
+      "label": "eco",
+      "confidence": 0.73,
+      "signals_found": [
+        { "text": "tamamen el yapımı bir koltuk modelidir", "strength": "weak" },
+        { "text": "kimyasal apre işlemi uygulanmadan dokunmaktadır", "strength": "medium" },
+        { "text": "su bazlı formülasyonlu tutkal", "strength": "medium" }
+      ],
+      "signals_missing": [
+        { "text": "organik formlar ve doğadan ilham alan çizgiler", "reason": "Tasarım dili — eco kanıtı değil" },
+        { "text": "pamuk ipliği sertifikasız", "reason": "GOTS veya organik sertifikası belirtilmemiş; pamuk tek başına 0.50 üzerinde confidence üretemiyor" }
+      ],
+      "reasoning": "Kimyasal apre içermeyen kumaş ve su bazlı tutkal orta güçte eco sinyalleridir. El yapımı üretim zayıf sinyal niteliğindedir. Pamuk kaynağı sertifikasız; tedarik zinciri boşluğu mevcut. Confidence 0.75 eşiğini geçemiyor ancak mevcut sinyaller eco yönüne işaret ediyor."
+    }
+  },
+  {
+    "id": 6,
+    "name": "EcoStyle Polipropilen Kafeterya Sandalyesi",
+    "price": 890,
+    "description": "EcoStyle Kafeterya Sandalyesi, kurumsal mekânlar, ofis mutfakları ve toplu kullanım alanları için tasarlanmış, dayanıklılığı ve kolay temizlenebilirliğiyle öne çıkan modern bir oturma çözümüdür. Sandalyenin oturma ve sırt bölümü yüksek akış polipropilen kalıpla üretilmiştir; bu malzeme seçimi, küçük ölçekli kullanımlar için yeterli dayanıklılık sunarken toplu üretim maliyetlerini kontrol altında tutmaktadır. Polipropilen gövde, darbelere karşı yüksek direnç sağlamakta ve yüzeyini zaman içinde sarartmayan UV kararlı renk pigmentleriyle işlenmektedir. Sandalyenin metal bacakları, boyalı çelik borudan üretilmekte ve solvent bazlı elektrostatik toz boya yöntemiyle kaplanmaktadır. Toz boya uygulaması, standart sıvı boyalara kıyasla daha az overspray artığı üretmektedir. Sandalye yüzey tasarımı, eco-style tasarım felsefesini yansıtacak biçimde sade tutulmuş; organik formlar ve yumuşak çizgiler sandalyeye hem modern hem de doğaya yakın bir görünüm kazandırmaktadır. Ambalajlamada geri dönüştürülmüş ambalaj kartonları kullanılmakta olup dört sandalye bir arada paketlenerek kişi başına düşen ambalaj malzemesi miktarı minimize edilmektedir. BPA-free pigment formülasyonları kullanıldığından renklerin yüzey güvenliği açısından herhangi bir risk taşımadığını belirtmek isteriz. Sürdürülebilir bir yaşam tarzı için mobilya seçimi yapan kullanıcılara, sandalyemizin temizleme ve bakım kolaylığının uzun kullanım süresine olanak tanıdığını hatırlatırız; uzun kullanım süresi, daha az değiştirme döngüsü anlamına geldiğinden dolaylı olarak çevresel yük azaltımına katkı sağlamaktadır. Yığılabilir tasarımı sayesinde kullanılmadığında altı adete kadar üst üste koyulabilmektedir; bu özellik depolama alanı ihtiyacını azaltmaktadır. Mevcut renk seçenekleri: beyaz, antrasit, kırmızı, sarı. Oturma kapasitesi 110 kg. Garanti süresi iki yıldır. Melamin kaplama uygulanan yüzey, uzun süreli temasa rağmen renk solması yaşamamaktadır. Çevre dostu etiketleri ve organik görünümlü ambalaj tasarımıyla dikkat çeken bu ürün, kurumsal alıcıların çevre hassasiyetine verilen görsel bir yanıttır.",
+    "llm_analysis": {
+      "label": "not_eco",
+      "confidence": 0.07,
+      "signals_found": [],
+      "signals_missing": [
+        { "text": "eco-style tasarım felsefesi", "reason": "Sertifikasız estetik iddia — eco kanıtı değil" },
+        { "text": "organik formlar ve yumuşak çizgiler", "reason": "Tasarım dili — eco kanıtı değil" },
+        { "text": "BPA-free pigment formülasyonları", "reason": "Güvenlik standardı — çevre performansı değil" },
+        { "text": "sürdürülebilir bir yaşam tarzı için", "reason": "Yaşam tarzı iddiası — ürün özelliği değil, vague claim" },
+        { "text": "geri dönüştürülmüş ambalaj kartonları", "reason": "Ambalaj eco olabilir ancak ürün malzemesi eco değil; ambalaj, ürünün kendisi için eco etiket üretemez" }
+      ],
+      "reasoning": "Ana gövde malzemesi polipropilen (virgin plastik) ve metal kaplamada solvent bazlı elektrostatik boya kullanılmaktadır; her ikisi de negatif sinyal niteliğindedir. Eco-style, organik formlar, BPA-free ifadeleri misleading olarak işaretlenmiştir. Ambalaj eco olsa da ürün malzemesi eco değildir. Greenwashing riski yüksek."
+    }
+  },
+  {
+    "id": 7,
+    "name": "Vintage Orman Deseni Sehpa",
+    "price": 3200,
+    "description": "Vintage Orman Deseni Sehpa, retro ve nostaljik dekorasyon anlayışını benimseyen modern konutlar için tasarlanmış, orman teması ve doğal desen estetiğiyle öne çıkan bir sehpa modelidir. Sehpanın tablası, gerçek ahşabın sıcak dokusunu taklit eden ahşap görünümlü melamin kaplama yüzeyiyle üretilmiştir; bu yüzey hem renk hem de çizgi detayları bakımından doğal meşeye yakın bir görünüm sunmaktadır. Gövde MDF malzemeden üretilmekte olup tablaya ve yan panellere uygulanan melamin film laminasyon, çizilme ve neme karşı yüksek direnç sağlamaktadır. Sehpanın bacakları ise masif ahşap görünümüne sahip boyalı metal profilden üretilmiştir; bu tercih hafiflik ve stacking performansı açısından avantaj sağlamaktadır. Orman temasını pekiştiren baskı deseni, genişlik 60 cm olan tablo yüzeyine UV baskı tekniğiyle işlenmekte; kullanım boyunca renk canlılığını korumaktadır. Sürdürülebilir bir ev atmosferi yaratmak isteyenler için organik desen ve doğal renk tonları içeren bu sehpa biçilmiş kaftandır. Vintage ve nostaljik estetiğe olan ilginiz söz konusu olduğunda bu sehpa koleksiyonun öne çıkan parçalarından birini oluşturmaktadır. Retro tasarım anlayışı, mekânın duygusal sıcaklığını artıran detaylar içermektedir. Doğal görünüm ile modern üretim tekniklerini birleştiren bu model, hem pratik hem de görsel olarak tatmin edici bir seçenektir. Sehpa ölçüleri: 55 x 55 x 45 cm (genişlik x derinlik x yükseklik). Ağırlığı 6.5 kg. Kargo ile teslimat yapılmaktadır; flat-pack formatta gelmekte olup montajı on beş dakikayı geçmemektedir. Renk seçenekleri: orman yeşili çerçeve ile meşe desenli tabla, beyaz çerçeve ile kayın desenli tabla. Maksimum yük kapasitesi 15 kg. Garanti süresi iki yıldır. Temizlik için nemli bez yeterli olup kimyasal temizleyicilerden kaçınılması önerilmektedir.",
+    "llm_analysis": {
+      "label": "not_eco",
+      "confidence": 0.11,
+      "signals_found": [],
+      "signals_missing": [
+        { "text": "ahşap görünümlü melamin kaplama", "reason": "Görsel tanım — ahşap taklidi malzeme, eco kanıtı değil" },
+        { "text": "orman teması ve doğal desen", "reason": "Estetik tanım — eco kanıtı değil" },
+        { "text": "vintage ve nostaljik estetik", "reason": "Tasarım stili — eco kanıtı değil" },
+        { "text": "sürdürülebilir bir ev atmosferi yaratmak isteyenler için", "reason": "Yaşam tarzı iddiası — ürün eco değil, bağlam eco" }
+      ],
+      "reasoning": "Ürün MDF gövde ve melamin kaplama içermektedir; MDF için formaldehit emisyon sınıfı belirtilmemiştir. Tüm eco-sounding ifadeler estetik veya yaşam tarzı bağlamındadır, ürün malzeme kanıtı mevcut değildir. Greenwashing riski mevcut."
+    }
+  },
+  {
+    "id": 8,
+    "name": "Doğadan İlham Kumaş Koltuk",
+    "price": 8600,
+    "description": "Doğadan İlham Kumaş Koltuk, organik formlardan beslenen tasarım çizgisiyle ve geniş oturma konforu sunacak biçimde üretilmiş, orta segment oturma odası koltuğudur. Koltuğun dış kumaşı, sertifikasız pamuk ve polyester karışımından üretilmektedir; pamuğun hangi bölgeden tedarik edildiği ve üretim süreçlerine ilişkin herhangi bir sertifikasyon belgesi mevcut değildir. İç dolgu yüksek yoğunluklu poliüretan köpük ve silikon elyaf karışımından oluşmakta olup bu malzeme kombinasyonu konfor ve şekil kalıcılığı açısından başarılı sonuçlar vermektedir. İskelet masif kayın ve kontraplak kombinasyonundan oluşmaktadır; kontraplak bağlantı noktalarında kullanılmakta olup formaldehit emisyon sınıfı üretici belgelerinde belirtilmemektedir. El yapımı döşeme süreci, kumaşın koltuk gövdesine elle gerilip çivi ve kanca sistemiyle sabitlenerek bitirilmesini kapsamaktadır; bu yöntem yüksek hassasiyet gerektirmektedir. Sürdürülebilir seçimler yapmak isteyen kullanıcılar için pamuk kumaş alternatifinin sentetik kumaşlara kıyasla doğal bir seçenek olduğunu hatırlatmak isteriz; ancak bu ifade sertifikasız kaynaklar için sınırlı bir anlam taşımaktadır. Ambalajlama minimal tutulmuş olup geri dönüştürülmüş karton ve plastik strech film kombinasyonu kullanılmaktadır. Doğadan ilham alan tasarım felsefemiz, organik formlar içeren ve doğayla uyumlu renk paletleri sunan bu koltuğun görsel kimliğini şekillendirmektedir. Renk seçenekleri: açık gri, bej, mürdüm, toz mavisi. Koltuk boyutları: 90 x 85 x 95 cm (genişlik x derinlik x yükseklik). Oturma yüksekliği 45 cm. Taşıma kapasitesi 120 kg. Garanti süresi iki yıldır; kumaş yıpranmalarına karşı onarım hizmeti sunulmaktadır. Bu koltuk, tasarım zevkini ön planda tutan ve bütçe dengesiyle konfor ilişkisini iyi kurmak isteyen kullanıcılar için dengeli bir seçenektir.",
+    "llm_analysis": {
+      "label": "uncertain",
+      "confidence": 0.44,
+      "signals_found": [
+        { "text": "sertifikasız pamuk ve polyester karışımı", "strength": "weak" },
+        { "text": "el yapımı döşeme süreci", "strength": "weak" }
+      ],
+      "signals_missing": [
+        { "text": "poliüretan köpük dolgu", "reason": "Negatif sinyal — sertifikasız polyurethane foam" },
+        { "text": "pamuk kaynağı sertifikasız", "reason": "GOTS veya organik sertifika yok; tedarik zinciri boşluğu" },
+        { "text": "kontraplak formaldehit sınıfı belirtilmemiş", "reason": "Sertifika belirsizliği — confidence 0.15 düşürüldü" },
+        { "text": "doğadan ilham alan tasarım felsefemiz", "reason": "Tasarım dili — eco kanıtı değil" },
+        { "text": "organik formlar", "reason": "Tasarım dili — eco kanıtı değil" }
+      ],
+      "reasoning": "Ürün hem eco sinyali (sertifikasız pamuk) hem de negatif sinyal (poliüretan köpük) içermektedir; bu durum çatışma yaratmaktadır. Pamuk kaynağı sertifikasız olduğundan 0.50 eşiği aşılamıyor. Kontraplak emisyon sınıfı belirsizliği ek güvensizlik üretiyor. Kısmi eco çatışması nedeniyle label uncertain."
+    }
+  },
+  {
+    "id": 9,
+    "name": "Prestige Tam Deri Kanepe",
+    "price": 42000,
+    "description": "Prestige Tam Deri Kanepe, tam deri kaplama, yüksek yoğunluklu sünger dolgu ve masif kayın iskelet kombinasyonuyla lüks segment oturma odası mobilyası standartlarını karşılayan, temsil odaları ve üst düzey konutlar için tasarlanmış bir oturma ünitesidir. Üç koltuk yapısıyla 240 cm genişliğe ulaşan kanepe, gerçek dana derisi ile kaplanmaktadır; deri, İtalya'daki tedarikçi atölyelerden temin edilmekte ve krom tabaklama yöntemiyle işlenmektedir. Krom tabaklama, klasik bitkisel tabaklama süreçlerine kıyasla daha hızlı ve düşük maliyetli olmakla birlikte işlem suyu yönetimi açısından dikkatli atık bertarafı gerektirmektedir. İç dolgu yüksek yoğunluklu sünger dolgudur; polyurethane foam bileşimi 35 kg/m³ yoğunluğuyla uzun süreli oturma performansı için optimize edilmiştir. Kanapede deri yüzeyleri arasındaki geçiş noktalarında PVC trim şeritler kullanılmakta; bu uygulama deri kenar bitişlerini estetik açıdan tamamlamakta ve uzun vadeli yıpranmaya karşı koruma sağlamaktadır. Renk seçenekleri İtalyan renk kataloğundan belirlenmekte olup koyu kahverengi, siyah, konyak ve krem rengi mevcuttur. İskelet masif kayın, bağlantı yüzeyleri ise yüksek basınçlı kontraplak kombinasyonundan oluşmaktadır. Metal aksamlar nikel kaplama olup parlak görünüm için sürdürülebilir tercihten ziyade estetik bütünlük önceliklendirilmiştir. Premium kalite anlayışımızın bir yansıması olarak her kanepe atölyemizde sergi kalitesinde deri seçimi sürecinden geçmekte; yüzeyindeki doğal lekeler ve damarlar kabul edilmemektedir. Ambalajlama ağır koruyucu plastik örtü, köşe sünger destekler ve plastik strech film katmanıyla gerçekleştirilmektedir. Kanepe teslimatı profesyonel kurulum ekibiyle yapılmakta olup bina girişi ve kat taşıma dahildir. Garanti süresi beş yıldır; deri bakım seti kanepeyle birlikte ücretsiz teslim edilmektedir. Prestige serisi, konforu ve görsel ağırlığı birinci öncelik olarak belirleyen kullanıcılara hitap etmektedir.",
+    "llm_analysis": {
+      "label": "not_eco",
+      "confidence": 0.06,
+      "signals_found": [],
+      "signals_missing": [
+        { "text": "krom tabaklama yöntemiyle işlenmektedir", "reason": "Negatif süreç — krom tabaklama yüksek kimyasal yük içerir" },
+        { "text": "PVC trim şeritler", "reason": "Negatif malzeme — PVC" },
+        { "text": "polyurethane foam sertifikasız", "reason": "Negatif sinyal — sertifikasız poliüretan köpük" },
+        { "text": "premium kalite anlayışımızın bir yansıması", "reason": "Pazarlama ifadesi — eco kanıtı değil" }
+      ],
+      "reasoning": "Krom tabaklama, PVC trim ve sertifikasız polyurethane foam birden fazla negatif sinyal oluşturmaktadır. Eco yönünde herhangi bir kanıt mevcut değildir. Kesinlikle eco değil."
+    }
+  },
+  {
+    "id": 10,
+    "name": "Nordic Melamin TV Ünitesi",
+    "price": 5400,
+    "description": "Nordic Melamin TV Ünitesi, 65 inç ekrana kadar uyumlu geniş TV rafı ve kapasiteli kapalı depolama bölmeleriyle günümüz salon kullanım alışkanlıklarına cevap veren, Kuzey Avrupa tasarım estetiğinden ilham alan bir medya mobilyasıdır. Gövde yapısı MDF malzemeden üretilmiş olup yüzeyler beyaz yüksek parlak melamin kaplama ile bitirilmiştir; melamin kaplamanın sertliği, günlük kullanımdaki çizilme ve darbe riskini azaltmaktadır. Kapak panelleri itme açma sistemiyle donatılmıştır; kulp veya tutamak gerektirmeyen bu mekanizma hem temiz çizgiyi koruyan hem de kullanım kolaylığı sağlayan bir tercihtir. Ayaklar, üniteye hafiflik ve yükselti hissi veren beyaz lake boyalı metal profilden üretilmektedir; lake boya uygulaması solvent bazlı yöntemle gerçekleştirilmektedir. Arka panel, gizli kablo geçişlerine izin veren delik düzenlemeleriyle tasarlanmıştır; bu özellik kablo karmaşasını görsel olarak ortadan kaldırmaktadır. TV ünitesi üç modüler bölümden oluşmakta ve isteğe bağlı olarak birbirinden bağımsız da kullanılabilmektedir. Doğal görünümünü seven kullanıcılar için meşe desenli melamin kaplama seçeneği de mevcuttur; bu seçenek, masif ahşap dokusunu andıran doku baskısı sayesinde doğal malzeme hissi vermektedir. Ürün ölçüleri: 180 x 40 x 50 cm (genişlik x derinlik x yükseklik). Maksimum TV ağırlık kapasitesi 60 kg. Flat-pack formatta teslim edilmekte olup montaj kılavuzu ve gerekli tüm bağlantı elemanları kutuya dahildir. Montaj süresi yaklaşık otuz ile kırk beş dakika arasındadır. Ambalajlama bozulmaları önlemek amacıyla sünger köşe koruyucular ve plastik strech film ile gerçekleştirilmektedir. Renk seçenekleri: beyaz yüksek parlak, meşe desenli, antrasit. Garanti süresi iki yıldır. Nordic Melamin TV Ünitesi, sade tasarım anlayışıyla Kuzey Avrupa modasını yaşam alanlarına taşımak isteyen tüketiciler için uygun fiyatlı bir seçenektir.",
+    "llm_analysis": {
+      "label": "not_eco",
+      "confidence": 0.18,
+      "signals_found": [],
+      "signals_missing": [
+        { "text": "MDF malzeme; formaldehit emisyon sınıfı belirtilmemiş", "reason": "Sertifika belirsizliği — E0/E1 sınıfı açıkça yazılmadığından negatif sinyal" },
+        { "text": "melamin kaplama", "reason": "Negatif malzeme sinyali" },
+        { "text": "lake boya uygulaması solvent bazlı", "reason": "Negatif süreç sinyali — solvent bazlı kaplama" },
+        { "text": "doğal görünümünü seven kullanıcılar için meşe desenli", "reason": "Görsel tanım — ahşap taklidi, eco kanıtı değil" }
+      ],
+      "reasoning": "MDF (formaldehit sınıfı belirsiz), melamin kaplama ve solvent bazlı boya birden fazla negatif sinyal oluşturmaktadır. Meşe desenli melamin misleading görsel tanımdır. Eco kanıtı mevcut değildir."
+    }
+  }
+]
