@@ -33,7 +33,7 @@ export default function HowItWorksModal({ onClose }: Props) {
         <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 flex-shrink-0">
           <div>
             <h2 className="text-lg font-bold text-gray-900">Nasıl Calısıyor?</h2>
-            <p className="text-xs text-gray-500 mt-0.5">2 katmanlı eco-friendly etiketleme motorunun teknik mimarisi</p>
+            <p className="text-xs text-gray-500 mt-0.5">4 katmanlı eco-friendly etiketleme motorunun teknik mimarisi</p>
           </div>
           <button
             onClick={onClose}
@@ -474,94 +474,157 @@ function TabFayda() {
 function TabRoadmap() {
   return (
     <div className="space-y-5">
-      {/* Comparison */}
-      <div className="grid grid-cols-2 gap-4">
-        <div className="rounded-xl border-2 border-amber-300 bg-amber-50 p-4">
-          <p className="text-xs font-bold text-amber-700 uppercase tracking-wide mb-2">Hacky Çözüm (Mevcut)</p>
-          <ul className="space-y-1.5 text-xs text-amber-800">
-            {[
-              "10 SKU'luk JSON katalog",
-              "LLM analizi önceden hesaplanmış",
-              "Statik Next.js demo",
-              "Sonuçlar hardcoded",
-              "Hash / cache yok",
-              "DB entegrasyonu yok",
-              "Batch pipeline yok",
-            ].map((item) => (
-              <li key={item} className="flex gap-2">
-                <span className="text-amber-400 flex-shrink-0">–</span>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
 
-        <div className="rounded-xl border-2 border-emerald-300 bg-emerald-50 p-4">
-          <p className="text-xs font-bold text-emerald-700 uppercase tracking-wide mb-2">Sustainable Çözüm (1 Ay)</p>
-          <ul className="space-y-1.5 text-xs text-emerald-800">
-            {[
-              "Tam katalog entegrasyonu",
-              "Gerçek zamanlı API çağrısı",
-              "DB tablosu (is_eco_friendly, hash…)",
-              "Hash-based idempotency",
-              "Batch pipeline (event-driven)",
-              "Admin UI (manual review queue)",
-              "Fine-tune için etiket birikimi",
-            ].map((item) => (
-              <li key={item} className="flex gap-2">
-                <span className="text-emerald-500 flex-shrink-0">✓</span>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
+      {/* Revised architecture */}
+      <div>
+        <h3 className="text-sm font-bold text-gray-900 mb-1">Revize Mimari — 4 Katmanlı Pipeline</h3>
+        <p className="text-xs text-gray-500 mb-3">LLM yükü klasik ML sınıflandırıcıyla karşılanır; LLM yalnızca belirsiz kenar vakalar için çalışır.</p>
+        <div className="space-y-1.5">
+          {[
+            {
+              step: "1",
+              title: "Keyword Engine",
+              sub: "Deterministik — sıfır maliyet",
+              desc: "Güçlü sinyal varsa (Tier1 sertifika, açık negatif malzeme) karar anında verilir. LLM ve classifier'a gitmez.",
+              color: "bg-amber-50 border-amber-200 text-amber-800",
+            },
+            {
+              step: "2",
+              title: "Hafif Text Classifier",
+              sub: "TF-IDF + Logistic Regression",
+              desc: "Etiketlenmiş veriden eğitilir. Ürün metnini vektörleştirir, 0–1 arası confidence döndürür. ≥0.80 → karar. 0.50–0.79 → LLM'e aktar.",
+              color: "bg-blue-50 border-blue-200 text-blue-800",
+            },
+            {
+              step: "3",
+              title: "LLM (Kenar Vakalar)",
+              sub: "Yalnızca classifier belirsizse devreye girer",
+              desc: "Confidence 0.50–0.79 aralığındaki ürünler buraya gelir. Batch testi: 20/30/40 ürün/call karşılaştırması yapılır (500 kelimelik açıklamalar göz önünde).",
+              color: "bg-purple-50 border-purple-200 text-purple-800",
+            },
+            {
+              step: "4",
+              title: "Human Review",
+              sub: "LLM confidence < 0.60",
+              desc: "Sistem zorla karar vermez. Analist kararı DB'ye yazılır ve bir sonraki classifier eğitiminde etiket olarak kullanılır.",
+              color: "bg-gray-100 border-gray-300 text-gray-700",
+            },
+          ].map((s, i, arr) => (
+            <div key={s.step}>
+              <div className={`rounded-lg border px-4 py-3 ${s.color}`}>
+                <div className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-white bg-opacity-60 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                    {s.step}
+                  </span>
+                  <div>
+                    <div className="flex items-center gap-2 mb-0.5">
+                      <p className="text-xs font-bold">{s.title}</p>
+                      <span className="text-xs opacity-60">{s.sub}</span>
+                    </div>
+                    <p className="text-xs opacity-80 leading-relaxed">{s.desc}</p>
+                  </div>
+                </div>
+              </div>
+              {i < arr.length - 1 && (
+                <div className="flex justify-center py-0.5 text-gray-300 text-sm">↓</div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Classifier design */}
+      <div>
+        <h3 className="text-sm font-bold text-gray-900 mb-3">Classifier Tasarımı</h3>
+        <div className="space-y-2">
+          {[
+            {
+              title: "Model: TF-IDF + Logistic Regression",
+              desc: "Kurulum süresi düşük, yorumlanabilir, confidence calibration built-in. 500–1000 etiketli örnekle bile iyi performans verir. Bir startup ekibi için hızlı prototipleme imkanı.",
+              badge: "Pratik Seçim",
+              badgeColor: "bg-blue-100 text-blue-700",
+            },
+            {
+              title: "Eğitim Verisi Nasıl Üretilir?",
+              desc: "İlk etiketler 3 kaynaktan gelir: (1) Keyword engine'in yüksek güvenle (≥5 puan) karar verdiği ürünler, (2) LLM'in yüksek güvenle (≥0.85) kararlandırdığı ürünler, (3) Analist onayından geçmiş human_review kararları. Bu üç kaynak birleşince ~1000 etiketli örnek oluşur.",
+              badge: "Veri Stratejisi",
+              badgeColor: "bg-emerald-100 text-emerald-700",
+            },
+            {
+              title: "Confidence Calibration",
+              desc: "Logistic Regression çıktısı olasılık tabanlıdır. Eşik değerleri (0.80 / 0.50) validation seti üzerinde Precision-Recall analizi yapılarak belirlenir. Eşiğin altı otomatik olarak LLM veya human_review'a devredilir.",
+              badge: "Kalibrasyon",
+              badgeColor: "bg-amber-100 text-amber-700",
+            },
+            {
+              title: "LLM'in Uzun Vadeli Rolü",
+              desc: "Zamanla classifier daha fazla vakayı güvenle karar vermeye başlar. LLM kullanım oranı düşer. Classifier yetersiz kaldığı noktalarda LLM aynı zamanda yeni etiket üretir — bu etiketler bir sonraki eğitim turuna girer. Sistem kendini iyileştiren döngü kurar.",
+              badge: "Flywheel Etkisi",
+              badgeColor: "bg-purple-100 text-purple-700",
+            },
+          ].map((item) => (
+            <div key={item.title} className="rounded-lg border border-gray-200 bg-gray-50 px-4 py-3">
+              <div className="flex items-center gap-2 mb-1">
+                <p className="text-xs font-bold text-gray-800">{item.title}</p>
+                <span className={`px-2 py-0.5 rounded-full text-xs font-semibold flex-shrink-0 ${item.badgeColor}`}>
+                  {item.badge}
+                </span>
+              </div>
+              <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
+            </div>
+          ))}
         </div>
       </div>
 
       {/* 4-week plan */}
       <div>
-        <h3 className="text-sm font-bold text-gray-900 mb-3">4 Haftalık Plan</h3>
+        <h3 className="text-sm font-bold text-gray-900 mb-3">4 Haftalık Uygulama Planı</h3>
         <div className="space-y-3">
           {[
             {
               week: "Hafta 1",
-              title: "Veri Altyapısı",
+              title: "Dataset Oluşturma",
               items: [
-                "Katalog DB'sine is_eco_friendly, confidence, method, description_hash alanları eklenir",
-                "Pipeline DB'ye yazar, hash eslesiyorsa reuse eder",
-                "Gerçek Claude API entegrasyonu aktif hale gelir",
+                "Keyword engine tüm katalog üzerinde çalıştırılır — yüksek güvenli kararlar etiket olarak alınır (~600 örnek)",
+                "LLM batch testi: 20 / 30 / 40 ürün/call tutarlılık karşılaştırması (500 kelimelik açıklamalar için optimal batch belirlenir)",
+                "LLM yüksek güvenle karar verdiği ürünler etiket havuzuna eklenir (~300 örnek)",
+                "Analist 50–100 edge case manuel etiketler — veri kalitesi tabanı oluşturulur",
               ],
               color: "border-blue-200 bg-blue-50",
               headColor: "text-blue-700",
             },
             {
               week: "Hafta 2",
-              title: "Batch Pipeline",
+              title: "Classifier Eğitimi",
               items: [
-                "Mevcut tüm katalog toplu olarak taranır (batch job)",
-                "Rate limit yönetimi ve retry stratejisi production'a taşınır",
-                "human_review_queue.json → DB tablosuna alınır",
+                "~1000 etiketli örnekle TF-IDF vektörizasyonu + Logistic Regression eğitimi",
+                "Train/val/test split — Precision, Recall, F1 ölçülür",
+                "Confidence eşikleri (0.80 / 0.50) validation seti üzerinde Precision-Recall analizi ile ayarlanır",
+                "A/B test: classifier kararı vs. LLM kararı — tutarsız vakalar human_review'a alınır",
               ],
               color: "border-purple-200 bg-purple-50",
               headColor: "text-purple-700",
             },
             {
               week: "Hafta 3",
-              title: "Manuel Review Akısı",
+              title: "Pipeline Entegrasyonu",
               items: [
-                "Basit admin arayüzü: human_review kuyruğu görüntülenir",
-                "Analist ECO / NOT ECO kararı verir, override DB'ye yazılır",
-                "Bu etiketler ilerideki fine-tune için eğitim verisi olur",
+                "4 katmanlı pipeline production'a alınır: Keyword → Classifier → LLM → Human Review",
+                "DB şeması güncellenir: method, classifier_confidence, llm_confidence, reviewed_by alanları eklenir",
+                "Batch queue sistemi: pending ürünler classifier'dan geçirilir, belirsizler LLM kuyruğuna alınır",
+                "Admin UI: human_review kuyruğu görüntülenir, analist kararları DB'ye yazılır",
               ],
               color: "border-amber-200 bg-amber-50",
               headColor: "text-amber-700",
             },
             {
               week: "Hafta 4",
-              title: "Event-Driven Otomasyon",
+              title: "İzleme ve Optimizasyon",
               items: [
-                "Yeni ürün ekleme / açıklama güncelleme event'leri pipeline'ı tetikler",
-                "Katalog büyüdükçe etiketler otomatik güncellenir",
-                "Hash değismemisse hiçbir şey çalısmaz — maliyet minimize",
+                "Maliyet tracker: classifier kaç vakanın LLM'e gitmesini engelledi, toplam token tasarrufu",
+                "Feedback loop: analist kararları haftalık eğitim verisi olarak birikiyor — classifier periyodik re-train",
+                "Yeni ürün event'leri pipeline'ı otomatik tetikler; hash değişmemişse sıfır maliyet",
+                "Alert: LLM oranı >%20'ye çıkarsa classifier'ın yeni veriye ihtiyacı var demektir",
               ],
               color: "border-emerald-200 bg-emerald-50",
               headColor: "text-emerald-700",
@@ -587,13 +650,43 @@ function TabRoadmap() {
         </div>
       </div>
 
+      {/* Cost over time */}
+      <div>
+        <h3 className="text-sm font-bold text-gray-900 mb-3">Maliyet Zamanla Nasıl Düşer?</h3>
+        <div className="rounded-xl border border-gray-200 overflow-hidden">
+          <table className="w-full text-xs">
+            <thead className="bg-gray-50">
+              <tr>
+                <th className="text-left px-4 py-2 font-semibold text-gray-600">Dönem</th>
+                <th className="text-left px-4 py-2 font-semibold text-gray-600">LLM Oranı</th>
+                <th className="text-left px-4 py-2 font-semibold text-gray-600">Neden?</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              {[
+                { donem: "Şimdi (sadece keyword+LLM)", oran: "~%40–60", neden: "Keyword belirsiz vakalar hepsine LLM gidiyor", color: "text-red-700" },
+                { donem: "Hafta 3 (classifier aktif)", oran: "~%15–20", neden: "Classifier büyük çoğunluğu karşılıyor", color: "text-amber-700" },
+                { donem: "1 Ay Sonrası (re-train)", oran: "~%5–10", neden: "Etiket havuzu büyüdükçe classifier güçleniyor", color: "text-emerald-700" },
+              ].map((r, i) => (
+                <tr key={i} className="bg-white">
+                  <td className="px-4 py-2 text-gray-600">{r.donem}</td>
+                  <td className={`px-4 py-2 font-bold ${r.color}`}>{r.oran}</td>
+                  <td className="px-4 py-2 text-gray-500">{r.neden}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       {/* End state */}
       <div className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-3">
         <p className="text-xs font-bold text-gray-700 mb-1">1 Ayın Sonunda</p>
         <p className="text-xs text-gray-600 leading-relaxed">
-          Manuel etiketleme sıfıra yakın. LLM maliyeti hash-based cache ile minimize edilmis.
-          Sistem her yeni ürünle kendi kendine ögreniyor. Insan sadece gerçekten belirsiz
-          olan ürünlere bakıyor. Katalog büyüdükçe sistem daha akıllı hale geliyor.
+          3000 SKU'nun ~%85–90'ı classifier tarafından sıfır LLM maliyetiyle karşılanıyor.
+          LLM yalnızca gerçek kenar vakalara dokunuyor. Analist kararları classifier'ı besliyor —
+          sistem her haftayla daha akıllı hale geliyor. Batch boyutu testi (20/30/40) tutarlılık
+          eşiğini belirliyor ve maliyet/kalite dengesi veriyle güvence altına alınıyor.
         </p>
       </div>
     </div>
