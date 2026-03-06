@@ -6,6 +6,7 @@ import { runKeywordEngine } from "@/lib/keyword-engine";
 import { Product, ProcessedProduct, OverrideStatus } from "@/lib/types";
 import ProductCard from "@/components/ProductCard";
 import SectionBlock from "@/components/SectionBlock";
+import HowItWorksModal from "@/components/HowItWorksModal";
 
 // ---------------------------------------------------------------------------
 // Processing
@@ -40,6 +41,7 @@ export default function Home() {
   const [filtered, setFiltered] = useState(false);
   const [processed, setProcessed] = useState<ProcessedProduct[]>(INITIAL_PROCESSED);
   const [animating, setAnimating] = useState(false);
+  const [showHowItWorks, setShowHowItWorks] = useState(false);
 
   const handleFilter = () => {
     setAnimating(true);
@@ -85,6 +87,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
+      {showHowItWorks && <HowItWorksModal onClose={() => setShowHowItWorks(false)} />}
       {/* ------------------------------------------------------------------ */}
       {/* HEADER */}
       {/* ------------------------------------------------------------------ */}
@@ -100,6 +103,12 @@ export default function Home() {
             </div>
           </div>
           <div className="flex items-center gap-2">
+            <button
+              onClick={() => setShowHowItWorks(true)}
+              className="px-3 py-1.5 rounded-lg bg-gray-900 hover:bg-gray-700 text-white text-xs font-semibold transition-colors"
+            >
+              Nasıl Calısıyor?
+            </button>
             <span className="px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold border border-blue-200">
               Vivense Pilot
             </span>
